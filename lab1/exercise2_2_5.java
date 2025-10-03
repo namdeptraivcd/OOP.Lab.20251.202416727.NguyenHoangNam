@@ -1,54 +1,47 @@
 package lab1;
-
-import java.util.Scanner;
+import javax.swing.*;
 
 public class exercise2_2_5 {
-    static double sum (double x, double y){
-        double res = x + y;
-        
-        return res;
+    static double sum(double x, double y) {
+        return x + y;
     }
 
-    static double difference (double x, double y){
-        double res = x - y;
-        return res;
+    static double difference(double x, double y) {
+        return x - y;
     }
 
-    static double product(double x, double y){
-        double res = x * y;
-        return res;
+    static double product(double x, double y) {
+        return x * y;
     }
 
-    static double quotient(double x, double y){
-        if (y == 0){
-            System.out.println("Cann't divide");
+    static double quotient(double x, double y) {
+        if (y == 0) {
+            JOptionPane.showMessageDialog(null, "Can't divide ");
             return Double.NaN;
         }
-        double res = x/y;
-        return res;
-
+        return x / y;
     }
 
+    public static void main(String[] args) {
 
-    public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        double x = sc.nextDouble();
-        double y = sc.nextDouble();
+        String X = JOptionPane.showInputDialog("Enter x:");
+        double x = Double.parseDouble(X);
 
+
+        String Y = JOptionPane.showInputDialog("Enter y:");
+        double y = Double.parseDouble(Y);
 
         double sum = sum(x, y);
-        double difference = difference(x, y);
-        double product = product(x, y);
-        double quotient = quotient(x, y);
+        double diff = difference(x, y);
+        double prod = product(x, y);
+        double quot = quotient(x, y);
 
+        String result = "Sum of " + x + " and " + y + " = " + sum
+                      + "\nDifference of " + x + " and " + y + " = " + diff
+                      + "\nProduct of " + x + " and " + y + " = " + prod
+                      + "\nQuotient of " + x + " and " + y + " = " + quot;
 
-        System.out.println("Sum of " + x + " and " + y + " is " + sum);
-        System.out.println("Difference of " + x + " and " + y + " is " + difference);
-        System.out.println("Product of " + x + " and " + y +" is " + product);
-        System.out.println("quotient of " + x + " and "+ y + " is " + quotient);
-
-
- 
-        sc.close();
+        JOptionPane.showMessageDialog(null, result);
+        System.exit(0);
     }
 }
