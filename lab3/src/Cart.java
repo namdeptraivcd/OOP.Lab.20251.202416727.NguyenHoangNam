@@ -32,21 +32,45 @@ public class Cart {
             System.out.println("List of DVD is full");
     }
 }
-
-
-
-    public int found (DVD dvd){
+    public int searchById (int id_DVD){
         int found = -1;
-        for (int i =0; i < num_curr_DVD; i++){
-            if (list_DVD[i].getTitle().equals(dvd.getTitle())){
-                found = i;
-                break;
-            }
+        for (int i = 0; i < num_curr_DVD; i++) {
+        if (list_DVD[i].getId() == (id_DVD)) { // dùng equalsIgnoreCase cho tiện
+            System.out.println("DVD found ");
+            list_DVD[i].show_all_info(); // in ra thông tin DVD
+            found = i;
+            break;
         }
-        return found;
+    }
+
+    if (found == -1) {
+        System.out.println("DVD not found");
+    }
+
+    return found;
+}
+    
+
+    public int searchByTitle (String DVD_Title){
+        int found = -1;
+        for (int i = 0; i < num_curr_DVD; i++) {
+        if (list_DVD[i].getTitle().equalsIgnoreCase(DVD_Title)) { // dùng equalsIgnoreCase cho tiện
+            System.out.println("DVD found ");
+            list_DVD[i].show_all_info(); // in ra thông tin DVD
+            found = i;
+            break;
+        }
+    }
+
+    if (found == -1) {
+        System.out.println("DVD not found");
+    }
+
+    return found;
+
     }
     public void remove_DVD(DVD dvd ){
-        int index_searching_dvd = found(dvd);
+        int index_searching_dvd = searchByTitle(dvd.getTitle());
         if (index_searching_dvd != -1){ 
             for (int i = index_searching_dvd; i < num_curr_DVD - 1; i++){
                 list_DVD[i] = list_DVD[i+1];
@@ -66,19 +90,6 @@ public class Cart {
         return total;
     }
     
-    public void showAll() {
-    if (num_curr_DVD == 0) {
-        System.out.println("Cart is empty.");
-        return;
-    }
-    for (int i = 0; i < num_curr_DVD; i++) {
-        System.out.println((i+1) + ". " + list_DVD[i].getTitle() 
-            + " - " + list_DVD[i].getCategory() 
-            + " - " + list_DVD[i].getDirector() 
-            + " - " + list_DVD[i].getLength() + " mins - $" 
-            + list_DVD[i].getCost());
-    }
-}
-
+    
         
 }
