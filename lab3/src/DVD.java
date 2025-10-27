@@ -6,6 +6,9 @@ public class DVD {
     private String director;
     private int length;
     private float cost;
+    private int id; // instance attribute
+
+    private static int nbDigitalVideoDiscs = 0; //class attribute
 
     // Constructor 1: create by title
     public DVD (String title){
@@ -14,6 +17,10 @@ public class DVD {
         this.director = "Unknown";
         this.length = 0;
         this.cost = 0.0f;
+
+        nbDigitalVideoDiscs += 1;
+        this.id = nbDigitalVideoDiscs;
+
     }
 
     // Constructor 2: Create by category, title, and cost
@@ -23,6 +30,9 @@ public class DVD {
         this.director = "Unknown";
         this.length = 0;
         this.cost = cost;
+
+        nbDigitalVideoDiscs += 1;
+        this.id = nbDigitalVideoDiscs;
     }
 
     //Constructor 3: Create by director, category, title, and cost
@@ -32,6 +42,9 @@ public class DVD {
         this.director = director;
         this.length = 0;
         this.cost = cost;
+
+        nbDigitalVideoDiscs += 1;
+        this.id = nbDigitalVideoDiscs;
     }
 
     // Constructor 4: Create by all attributes
@@ -41,14 +54,18 @@ public class DVD {
         this.director = director;
         this.length = length;
         this.cost = cost;
+
+        nbDigitalVideoDiscs += 1;
+        this.id = nbDigitalVideoDiscs;
     }
 
     public void show_all_info(){
-        System.out.println(this.title);
-        System.out.println(this.category);
-        System.out.println(this.director);
-        System.out.println(this.length);
-        System.out.println(this.cost);
+        System.out.println("title: " + this.title);
+        System.out.println("category: " + this.category);
+        System.out.println("director: " + this.director);
+        System.out.println("length: " + this.length);
+        System.out.println("cost: " + this.cost);
+        System.out.println("id: " + this.id);
     }
 
     public String getTitle(){
@@ -63,11 +80,19 @@ public class DVD {
         return this.director;
     }
     public int getLength(){
-        return length;
+        return this.length;
     }
 
     public float getCost(){
-        return cost;
+        return this.cost;
+    }
+
+    public int getId(){
+        return this.id;
+    }
+
+    public int getNumberDVD(){
+        return nbDigitalVideoDiscs;
     }
     public void setTitle(String title) {
     this.title = title;
