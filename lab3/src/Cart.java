@@ -90,6 +90,27 @@ public class Cart {
         return total;
     }
     
+<<<<<<< HEAD
     
+=======
+    public void printCart() {
+    System.out.println("**********************CART**********************");
+    if (num_curr_DVD == 0) {
+        System.out.println("Cart is empty.");
+        return;
+    }
+    for (int i = 0; i < num_curr_DVD; i++) {
+        System.out.println((i+1) + ". " + list_DVD[i].getTitle() 
+            + " - " + list_DVD[i].getCategory() 
+            + " - " + list_DVD[i].getDirector() 
+            + " - " + list_DVD[i].getLength() + " mins - $" 
+            + list_DVD[i].getCost());
+    }
+    System.out.println(totalCost());
+
+    System.out.println("******************************************************");
+}
+
+>>>>>>> feature/print-cart
         
 }

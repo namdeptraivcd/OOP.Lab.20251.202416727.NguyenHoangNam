@@ -79,7 +79,7 @@ public class Aims {
         
         // Display all DVDs
         System.out.println("\n############# SHOW_DVD function of Cart ############\n");
-        cart.showAll();
+        cart.printCart();
         
 
         // Display total cost
@@ -94,7 +94,7 @@ public class Aims {
         cart.remove_DVD(dvd1);
 
         System.out.println("\nCart after removing Suzume:");
-        cart.showAll();
+        cart.printCart();
         
         System.out.println("\n Try to remove a DVD that isn't in the cart");
         DVD nonExistingDVD = new DVD("Non-existing DVD");
