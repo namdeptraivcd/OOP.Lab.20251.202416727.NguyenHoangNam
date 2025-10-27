@@ -67,6 +67,7 @@ public class Cart {
     }
     
     public void showAll() {
+    System.out.println("**********************CART**********************");
     if (num_curr_DVD == 0) {
         System.out.println("Cart is empty.");
         return;
@@ -78,6 +79,9 @@ public class Cart {
             + " - " + list_DVD[i].getLength() + " mins - $" 
             + list_DVD[i].getCost());
     }
+    System.out.println(totalCost());
+
+    System.out.println("******************************************************");
 }
 
         
