@@ -90,9 +90,6 @@ public class Cart {
         return total;
     }
     
-<<<<<<< HEAD
-    
-=======
     public void printCart() {
     System.out.println("**********************CART**********************");
     if (num_curr_DVD == 0) {
@@ -111,6 +108,6 @@ public class Cart {
     System.out.println("******************************************************");
 }
 
->>>>>>> feature/print-cart
+
         
 }
