@@ -1,4 +1,4 @@
-package lab2.src;
+package lab3.src;
 import java.util.Scanner;
 
 public class Aims {
