@@ -20,7 +20,7 @@ public class Cart {
             System.out.println("List of DVD is full");
         }
     }
-    public void add_DVD(DVD[] newDVDList) {
+    public void add_DVD(DVD[] newDVDList) { // METHOD OVERLOADING
     if (num_curr_DVD + newDVDList.length <= MAX_DVD_ORDERS) {
         for (int i = 0; i < newDVDList.length; i++) {
             list_DVD[num_curr_DVD] = newDVDList[i];
