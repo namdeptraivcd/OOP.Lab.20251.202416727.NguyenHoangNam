@@ -1,4 +1,6 @@
-package lab3.src;
+package lab3.src.Aims;
+
+import lab3.src.Aims.DVD;
 
 public class Store {
     public static final int MAX_ITEMS = 200;

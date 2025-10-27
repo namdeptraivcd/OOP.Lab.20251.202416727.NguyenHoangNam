@@ -1,5 +1,7 @@
-package lab3.src;
+package lab3.src.Aims;
 import java.util.Scanner;
+
+import lab3.src.Aims.Aims.DVD;
 
 public class Aims {
     public static void main(String[] args) {

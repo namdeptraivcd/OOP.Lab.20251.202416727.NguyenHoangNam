@@ -1,4 +1,6 @@
-package lab3.src;
+package lab3.src.Test;
+
+import lab3.src.Aims.Aims.DVD;
 
 public class DVD_test {
     

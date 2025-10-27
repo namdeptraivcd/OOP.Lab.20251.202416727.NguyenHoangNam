@@ -1,4 +1,6 @@
-package lab3.src;
+package lab3.src.Aims;
+
+import lab3.src.Aims.Aims.DVD;
 
 public class Cart {
     public static final int MAX_DVD_ORDERS = 20;
@@ -35,9 +37,9 @@ public class Cart {
     public int searchById (int id_DVD){
         int found = -1;
         for (int i = 0; i < num_curr_DVD; i++) {
-        if (list_DVD[i].getId() == (id_DVD)) { // dùng equalsIgnoreCase cho tiện
+        if (list_DVD[i].getId() == (id_DVD)) { 
             System.out.println("DVD found ");
-            list_DVD[i].show_all_info(); // in ra thông tin DVD
+            list_DVD[i].show_all_info(); 
             found = i;
             break;
         }
@@ -54,9 +56,9 @@ public class Cart {
     public int searchByTitle (String DVD_Title){
         int found = -1;
         for (int i = 0; i < num_curr_DVD; i++) {
-        if (list_DVD[i].getTitle().equalsIgnoreCase(DVD_Title)) { // dùng equalsIgnoreCase cho tiện
+        if (list_DVD[i].getTitle().equalsIgnoreCase(DVD_Title)) { 
             System.out.println("DVD found ");
-            list_DVD[i].show_all_info(); // in ra thông tin DVD
+            list_DVD[i].show_all_info(); 
             found = i;
             break;
         }
@@ -106,11 +108,5 @@ public class Cart {
     System.out.println(totalCost());
 
     System.out.println("******************************************************");
-}
-<<<<<<< HEAD
-=======
-
-
->>>>>>> topic/store
-        
+}       
 }

@@ -1,4 +1,4 @@
-package lab3.src;
+package lab3.src.Aims;
 public class DVD {
 
     private String title;

@@ -1,4 +1,8 @@
-package lab3.src;
+package lab3.src.Test;
+
+import lab3.src.Aims.Cart;
+
+import lab3.src.Aims.DVD;
 
 public class CartTest {
     public static void main(String[] args) {

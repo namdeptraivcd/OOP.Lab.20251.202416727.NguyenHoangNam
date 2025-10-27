@@ -1,4 +1,8 @@
-package lab3.src;
+package lab3.src.Test;
+
+import lab3.src.Aims.Store;
+
+import lab3.src.Aims.DVD;
 
 public class StoreTest {
     public static void main(String[] args) {
