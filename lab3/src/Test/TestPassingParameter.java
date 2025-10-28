@@ -1,6 +1,6 @@
 package lab3.src.Test;
 
-import lab3.src.Aims.Aims.DVD;
+import lab3.src.Aims.DVD;
 
 public class TestPassingParameter {
 

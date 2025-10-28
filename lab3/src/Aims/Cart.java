@@ -1,6 +1,6 @@
 package lab3.src.Aims;
 
-import lab3.src.Aims.Aims.DVD;
+import lab3.src.Aims.DVD;
 
 public class Cart {
     public static final int MAX_DVD_ORDERS = 20;
