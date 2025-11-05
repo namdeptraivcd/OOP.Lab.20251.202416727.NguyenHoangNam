@@ -1,0 +1,208 @@
+apple@Fushi OOP.Lab.20251.202416727.NguyenHoangNam % java lab3/src/Aims/Aims.java
+Added DVD: Suzume to the store.
+Added DVD: Your Name to the store.
+Added DVD: Weathering With You to the store.
+Added DVD: The Garden of Words to the store.
+Added DVD: 5 Centimeters per Second to the store.
+[Store] Welcome to Store DVD!
+
+[Store] What do you want?
+1. Add DVD to (Cart)
+2. Remove DVD from (Cart)
+3. Check num current DVD in (Cart)
+4. Check (Cart)
+5. Search DVD by ID (Cart)
+6. Search DVD by Title(Cart)
+7. Check Bill (Cart)
+8. Exit
+[Customer]: choose option3
+[Store] Num DVD in Cart: 0
+
+[Store] What do you want?
+1. Add DVD to (Cart)
+2. Remove DVD from (Cart)
+3. Check num current DVD in (Cart)
+4. Check (Cart)
+5. Search DVD by ID (Cart)
+6. Search DVD by Title(Cart)
+7. Check Bill (Cart)
+8. Exit
+[Customer]: choose option1
+[Store] Title DVD you want to add: kimi no nawa
+[Store] DVD not found in store!
+
+[Store] What do you want?
+1. Add DVD to (Cart)
+2. Remove DVD from (Cart)
+3. Check num current DVD in (Cart)
+4. Check (Cart)
+5. Search DVD by ID (Cart)
+6. Search DVD by Title(Cart)
+7. Check Bill (Cart)
+8. Exit
+[Customer]: choose option1
+[Store] Title DVD you want to add: Suzume
+Num DVD in the current cart 1. Add new DVD: Suzume
+
+[Store] What do you want?
+1. Add DVD to (Cart)
+2. Remove DVD from (Cart)
+3. Check num current DVD in (Cart)
+4. Check (Cart)
+5. Search DVD by ID (Cart)
+6. Search DVD by Title(Cart)
+7. Check Bill (Cart)
+8. Exit
+[Customer]: choose option1
+[Store] Title DVD you want to add: Your Name
+Num DVD in the current cart 2. Add new DVD: Your Name
+
+[Store] What do you want?
+1. Add DVD to (Cart)
+2. Remove DVD from (Cart)
+3. Check num current DVD in (Cart)
+4. Check (Cart)
+5. Search DVD by ID (Cart)
+6. Search DVD by Title(Cart)
+7. Check Bill (Cart)
+8. Exit
+[Customer]: choose option3
+[Store] Num DVD in Cart: 2
+
+[Store] What do you want?
+1. Add DVD to (Cart)
+2. Remove DVD from (Cart)
+3. Check num current DVD in (Cart)
+4. Check (Cart)
+5. Search DVD by ID (Cart)
+6. Search DVD by Title(Cart)
+7. Check Bill (Cart)
+8. Exit
+[Customer]: choose option4
+**********************CART**********************
+1. Suzume - Animation - Shinkai Makoto - 100 mins - $100.0
+2. Your Name - Animation - Shinkai Makoto - 106 mins - $95.0
+195.0
+******************************************************
+
+[Store] What do you want?
+1. Add DVD to (Cart)
+2. Remove DVD from (Cart)
+3. Check num current DVD in (Cart)
+4. Check (Cart)
+5. Search DVD by ID (Cart)
+6. Search DVD by Title(Cart)
+7. Check Bill (Cart)
+8. Exit
+[Customer]: choose option5
+[Store] ID DVD you want to search: 1
+DVD found 
+title: Suzume
+category: Animation
+director: Shinkai Makoto
+length: 100
+cost: 100.0
+id: 1
+
+[Store] What do you want?
+1. Add DVD to (Cart)
+2. Remove DVD from (Cart)
+3. Check num current DVD in (Cart)
+4. Check (Cart)
+5. Search DVD by ID (Cart)
+6. Search DVD by Title(Cart)
+7. Check Bill (Cart)
+8. Exit
+[Customer]: choose option7
+[Store] Total cost: $195,00
+
+[Store] What do you want?
+1. Add DVD to (Cart)
+2. Remove DVD from (Cart)
+3. Check num current DVD in (Cart)
+4. Check (Cart)
+5. Search DVD by ID (Cart)
+6. Search DVD by Title(Cart)
+7. Check Bill (Cart)
+8. Exit
+[Customer]: choose option2
+[Store] Title of DVD you want to remove: Suzume
+DVD found 
+title: Suzume
+category: Animation
+director: Shinkai Makoto
+length: 100
+cost: 100.0
+id: 1
+DVD Suzume has been removed
+
+[Store] What do you want?
+1. Add DVD to (Cart)
+2. Remove DVD from (Cart)
+3. Check num current DVD in (Cart)
+4. Check (Cart)
+5. Search DVD by ID (Cart)
+6. Search DVD by Title(Cart)
+7. Check Bill (Cart)
+8. Exit
+[Customer]: choose option6
+[Store] Title of DVD you want to search: Suzume
+DVD not found
+
+[Store] What do you want?
+1. Add DVD to (Cart)
+2. Remove DVD from (Cart)
+3. Check num current DVD in (Cart)
+4. Check (Cart)
+5. Search DVD by ID (Cart)
+6. Search DVD by Title(Cart)
+7. Check Bill (Cart)
+8. Exit
+[Customer]: choose option2   
+[Store] Title of DVD you want to remove: Your Name
+DVD found 
+title: Your Name
+category: Animation
+director: Shinkai Makoto
+length: 106
+cost: 95.0
+id: 2
+DVD Your Name has been removed
+
+[Store] What do you want?
+1. Add DVD to (Cart)
+2. Remove DVD from (Cart)
+3. Check num current DVD in (Cart)
+4. Check (Cart)
+5. Search DVD by ID (Cart)
+6. Search DVD by Title(Cart)
+7. Check Bill (Cart)
+8. Exit
+[Customer]: choose option6
+[Store] Title of DVD you want to search: Your Name
+DVD not found
+
+[Store] What do you want?
+1. Add DVD to (Cart)
+2. Remove DVD from (Cart)
+3. Check num current DVD in (Cart)
+4. Check (Cart)
+5. Search DVD by ID (Cart)
+6. Search DVD by Title(Cart)
+7. Check Bill (Cart)
+8. Exit
+[Customer]: choose option7
+[Store] Total cost: $0,00
+
+[Store] What do you want?
+1. Add DVD to (Cart)
+2. Remove DVD from (Cart)
+3. Check num current DVD in (Cart)
+4. Check (Cart)
+5. Search DVD by ID (Cart)
+6. Search DVD by Title(Cart)
+7. Check Bill (Cart)
+8. Exit
+[Customer]: choose option
+[Customer]: choose option8
+[Store] Thanks you!
