@@ -13,6 +13,12 @@ public class TestPassingParameter {
         dvd.setTitle(title);
         dvd = new DVD (oldTitle);
     }
+
+    public static void trueSwap(DVD [] dvd_pair){
+        DVD temp = dvd_pair[0];
+        dvd_pair[0] = dvd_pair[1];
+        dvd_pair[1] = dvd_pair[0];
+    }
     public static void main(String[] args) {
         DVD jungleDVD = new DVD("jungle");
         DVD cinderellaDVD = new DVD ("cinderella");
@@ -24,6 +30,16 @@ public class TestPassingParameter {
 
         changeTitle(jungleDVD, cinderellaDVD.getTitle());
         System.out.println("jungle dvd title: " + jungleDVD.getTitle());
+
+
+        // Test trueSwap
+        DVD[] dvdPair = { jungleDVD, cinderellaDVD };
+        trueSwap(dvdPair);
+        jungleDVD = dvdPair[0];
+        cinderellaDVD = dvdPair[1];
+        System.out.println("\n *************** TRUE SWAP ************** \n");
+        System.out.println("jungle dvd title: " + jungleDVD.getTitle());
+        System.out.println("cinderella dvd title: " + cinderellaDVD.getTitle());
     }
 
 
