@@ -1,0 +1,3 @@
+Score: 9.5/10
+Comments:
+- B6.4 nếu chỉ dựa theo ảnh ở report thì có thể hiểu là code chỉ chấp nhận input dạng số hợp lệ còn string thì ko

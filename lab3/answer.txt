@@ -1,0 +1,31 @@
+Question 1: After the call of swap (jungleDVD, cinderellaDVD) why does the title of these two obj still remain?
+
+-> Answer: Because Java always pass-by-value, o1 and o2 are new local variables in the stack, with o1 points to object jungleDVD and o2 points to object cinderellaDVD in heap.
+.Therefore, in the method swap, we just change the object o1 and o2 point to in heap, not the object jungleDVD and cinderellaDVD point to.
+
+Therefore, after the method returns, jungleDVD still points to its original object, and cinderellaDVD still points to its original object.
+Their titles remain unchanged.
+
+
+Question 2: After the call of changeTitle (jungleDVD, cinderellaDVD.getTitle()) why is the title of the jungleDVD changed
+
+-> Answer: Because Java is pass-by-value, the parameter dvd is a copy of the reference to the same object that jungleDVD points to in the heap.
+when we setTitle of variable dvd, which mean we set title object jungleDVD in the heap. Therefore, after calling the method, the object change its title, and when we call jungleDVD.getTitle
+it will return the title we have changed.
+
+And about command dvd = new DVD (oldTitle); in the end, variable will point to new obejct DVD in the heap, and it doesn't affect to what object variable jungleDVD point to.
+
+
+
+Question3: Write a toString() method for the DigitalVideoDisc class. What should be the return type of this method? 
+
+-> Answer: type of this method should be String 
+For example: We return String of information about DVD 
+
+        public String toString() {
+        return "DVD - " + title 
+           + " - " + category 
+           + " - " + director 
+           + " - " + length + " mins - $" + cost;
+}
+From the above example, we see that method return String of information about DVD. 

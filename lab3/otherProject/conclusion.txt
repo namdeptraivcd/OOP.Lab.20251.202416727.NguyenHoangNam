@@ -1,0 +1,14 @@
+apple@Fushi OOP.Lab.20251.202416727.NguyenHoangNam % java lab3/otherProject/GarbageCreator.java
+
+Length of data: 20455
+Execution time (GarbageCreator): 53 ms
+
+apple@Fushi OOP.Lab.20251.202416727.NguyenHoangNam % java lab3/otherProject/NoGarbage.java
+Length of data: 20455
+Execution time (NoGarbage): 0 ms
+
+
+-> Clearly, NoGarbage is much faster than GarbageCreator. Because in NoGarbage, we use StringBuilder, it is mutable
+so when we append new char, it just appends a new character into local buffer without create new obj -> No trash to clean.
+Otherwise, in GarbageCreator, String is immutable, so when we += new char, it has to create new (String+add new char). 
+Therefore, if we have many character to add, it will create many garbage in the end, and to clean, it is time-wasteful
