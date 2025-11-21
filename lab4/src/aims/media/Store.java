@@ -8,7 +8,7 @@ public class Store {
 
     public Store(){}
 
-    public void add_DVD(Media media) {
+    public void addMedia(Media media) {
         if (media != null) {
             itemsInStore.add(media);
             System.out.println("Added media: " + media.getTitle() + " to the store.");
@@ -17,7 +17,7 @@ public class Store {
         }
     }
 
-    public void remove_DVD(Media media) {
+    public void removeMedia(Media media) {
 
         if (media == null) {
             System.out.println("Cannot remove null item from store");
