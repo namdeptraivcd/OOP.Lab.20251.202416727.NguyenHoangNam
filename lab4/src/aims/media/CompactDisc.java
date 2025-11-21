@@ -1,7 +1,7 @@
 package lab4.src.aims.media;
 import java.util.ArrayList;
 import java.util.List;
-public class CompactDisc extends Disc {
+public class CompactDisc extends Disc implements playable {
     private static int nbCompactDiscs = 0;
     private String artist;
     private List<Track> tracks =  new ArrayList<>();
@@ -44,5 +44,14 @@ public class CompactDisc extends Disc {
             total += tracks.get(i).getLength();
         }
         return total;
+
+    }
+@Override
+public void play(){
+    for ( Track track: tracks){
+        track.play();
     }
 }
+
+}
+
