@@ -4,7 +4,7 @@ import java.util.List;
 public class CompactDisc extends Disc implements playable {
     private static int nbCompactDiscs = 0;
     private String artist;
-    private List<Track> tracks =  new ArrayList<>();
+    private List<Track> tracks =  new ArrayList<Track>();
 
 
     public CompactDisc(String title, String category, float cost, String director, float length, String artist, List<Track> tracks) {
@@ -13,6 +13,10 @@ public class CompactDisc extends Disc implements playable {
         this.artist = artist;
         this.tracks = tracks;
 }
+    public CompactDisc(String titile){
+        super(++ nbCompactDiscs, titile,"N/A", 0, 0, "Unkown");
+        this.artist = "Unkown";
+    }
 
     public String getArtist(){
         return this.artist;
@@ -51,6 +55,13 @@ public void play(){
     for ( Track track: tracks){
         track.play();
     }
+}
+@Override
+public String toString(){
+    String track_info = this.tracks.isEmpty() ? "None" : this.tracks.size() + " tracks";
+    return "CD: " + super.toString() +
+            " - Artist: " + this.artist + " - " + track_info;
+
 }
 
 }

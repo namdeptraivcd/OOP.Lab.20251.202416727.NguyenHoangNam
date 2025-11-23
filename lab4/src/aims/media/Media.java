@@ -60,6 +60,13 @@ public abstract class Media {
         return this.title.equals(media.title);  
     }
 
+    public String toString(){
+        return "ID: " + this.id +
+                " - " + "Title: " + this.title +
+                " - " + "Category: " + this.category +
+                " - " + "Cost: " + this.cost;
+    }
+
 
 }
 

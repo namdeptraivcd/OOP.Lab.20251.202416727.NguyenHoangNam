@@ -39,6 +39,12 @@ public class Book extends Media {
         }
     }
 
+    @Override
+    public String toString(){
+        String bookInfo = this.authors.isEmpty() ? "None" : this.authors.size() + "authors";
+        return super.toString() + " - " + bookInfo;
+    }
+
     
 }
 

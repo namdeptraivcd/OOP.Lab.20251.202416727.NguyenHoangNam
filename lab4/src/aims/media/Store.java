@@ -46,6 +46,21 @@ public class Store {
         System.out.println("*******************************************************");
     }
 
+
+    public static void main(String[] args) {
+        Media media1 = new DVD("Tenki noko");
+        Media media2 = new DVD("Kimi no nawa");
+        Media media3 = new CompactDisc("hello");
+
+        Store myStore = new Store();
+
+        myStore.addMedia(media1);
+        myStore.addMedia (media2);
+        myStore.addMedia(media3);
+        for (Media media: myStore.itemsInStore){
+            System.out.println(media.toString());
+        }
+    }
 }
 
 
