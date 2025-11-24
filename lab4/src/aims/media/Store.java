@@ -33,7 +33,17 @@ public class Store {
         }
     }
 
-    public void printStore(){
+
+    public Media searchByTitle(String title) {
+        for (Media item : itemsInStore) {
+            if (item.getTitle().equalsIgnoreCase(title)) {
+                return item;
+            }
+        }
+        return null;
+    }
+
+    public void printStore() {
         System.out.println("\n**********************STORE ITEMS**********************");
         if (itemsInStore.isEmpty()) {
             System.out.println("Store is currently empty.");

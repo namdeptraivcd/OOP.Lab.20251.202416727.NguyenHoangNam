@@ -1,0 +1,64 @@
+question1:
+When overriding the equals() method of the Object class, you will have to cast the Object
+parameter obj to the type of Object that you are dealing with. For example, in the Media class,
+you must cast the Object obj to a Media, and then check the equality of the two objects'
+attributes as the above requirements (i.e. title for Media; title and length for Track).
+If the passing object is not an instance of Media, what happens?
+
+->Answer:
+If the passing object is not an instance of Media, attempting to cast it immediately will
+cause a Runtime error( ClassCastException ) to be thrown. To prevent this, the instanceof keyword must be
+used to check the type first; if the check fails, the method should return false
+
+
+
+
+Question2: Iterate through the list and print out the information of the media by using toString() method. Observe what happens and explain in detail.
+
+-> Answer: List Media (mediae), when it adds Book, CD or DVD, these Object will upcasting to Media ( since these objects extend from media)
+Upcasting will define what function our object can call. In this case, Book, CD, DVD can call all function that Media has. 
+However, they are actually Book, CD, and DVD, and just can call their function that are overriden or inherit from Media
+
+
+
+Question3: What class should implement the Comparable interface?
+
+-> Answer: we should implement Comparable interface in Media (parent class), because Book, CD, DVD inherit from Media,
+ we could overriden comparable function then in these child class if we want.
+
+
+
+
+Question4: In those classes, how should you implement the compareTo()method be to reflect the ordering that we want? 
+
+-> Answer: in Media class, we should compare title first according to alpha best, if they are similar, we will consider cost in decreasing order. 
+Code sample below.
+
+@Override
+public int compareTo(Media other) {
+    int titleComparison = this.title.compareToIgnoreCase(other.getTitle());
+    
+    if (titleComparison != 0) {
+        return titleComparison;
+    }
+    return Float.compare(other.getCost(), this.cost);
+}
+
+
+
+
+
+Question5: Can we have two ordering rules of the item (by title then cost and by cost then title) if we use this Comparable interface approach? 
+
+-> Answer: No you cannot, because comparable approach allows you to define only one way to sort, we have to choose only one between these two.
+
+
+
+
+Question6: Suppose the DVDs has a different ordering rule from the other media types, that is by title, then decreasing length, then cost. How would you modify your code to allow this? 
+
+->Answer: in DVD class, we have to overriden function compareTo()
+Because the sign of compareTo(Media other) must be the same, when we pass object DVD, it upcasts to Media.
+Then, after we compare title, we can downcasting other from Media to DVD, to get length attribute, and can compare it.
+After that, we compare length, and cost.
+

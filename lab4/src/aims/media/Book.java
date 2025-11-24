@@ -3,14 +3,17 @@ package lab4.src.aims.media;
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class Book extends Media {
     private List<String> authors = new ArrayList<String>();
-    private static int nbBook = 0;
 
-    public Book(String title){
-        super(++ nbBook, title, "N/A", 0);
 
+    public Book(String title, String category, float cost) {
+        super(title, category, cost);
+    }
+
+    // Constructor with only title
+    public Book(String title) {
+        super(title, "N/A", 0);
     }
 
     public List<String> getAuthors() {
@@ -41,8 +44,8 @@ public class Book extends Media {
 
     @Override
     public String toString(){
-        String bookInfo = this.authors.isEmpty() ? "None" : this.authors.size() + "authors";
-        return super.toString() + " - " + bookInfo;
+        String bookInfo = this.authors.isEmpty() ? "None Authors" : this.authors.size() + "authors";
+        return "Book - " + super.toString() + " - " + bookInfo;
     }
 
     

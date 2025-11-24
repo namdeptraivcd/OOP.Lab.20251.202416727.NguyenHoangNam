@@ -1,0 +1,376 @@
+Added media: Suzume to the store.
+Added media: Your Name to the store.
+Added media: Spirited Away to the store.
+Add: Loser successfully
+Add: Đã có em là Nhà successfully
+Add: Chẳng phải tình đầu sao đau đến thế successfully
+Added 3 new Tracks 
+Added media: Dear Min to the store.
+Added media: Your Name OST to the store.
+Added media: Crossing Time to the store.
+Store initialized.
+
+AIMS: 
+--------------------------------
+1. View store
+2. Update store
+3. See current cart
+0. Exit
+--------------------------------
+Please choose a number: 0-1-2-3
+Choice: 1
+
+**********************STORE ITEMS**********************
+1. DVD - ID: 1 - Title: Suzume - Category: Animation - Cost: 19.99 - Director: Shinkai Makoto -
+ Length: 122.0 mins                                                                            2. DVD - ID: 2 - Title: Your Name - Category: Animation - Cost: 18.99 - Director: Shinkai Makot
+o - Length: 106.0 mins                                                                         3. DVD - ID: 3 - Title: Spirited Away - Category: Animation - Cost: 19.99 - Director: Hayao Miy
+azaki - Length: 125.0 mins                                                                     4. CD: ID: 4 - Title: Dear Min - Category: Music - Cost: 40.0 - Director: Unknown - Length: 10.
+8 mins - Artist: MIN - 3 tracks                                                                5. CD: ID: 5 - Title: Your Name OST - Category: Music - Cost: 15.99 - Director: Unknown - Lengt
+h: 0.0 mins - Artist: Radwimps - None tracks                                                   6. Book - ID: 6 - Title: Crossing Time - Category: Manga - Cost: 45.0 - None Authors
+*******************************************************
+
+Options: 
+--------------------------------
+1. See a media's details
+2. Add a media to cart
+3. Play a media
+4. See current cart
+0. Back
+--------------------------------
+Please choose a number: 0-1-2-3-4
+Choice: 1
+Enter media title: Dear Min
+
+CD: ID: 4 - Title: Dear Min - Category: Music - Cost: 40.0 - Director: Unknown - Length: 10.8 m
+ins - Artist: MIN - 3 tracks                                                                   
+Options: 
+--------------------------------
+1. Add to cart
+2. Play
+0. Back
+--------------------------------
+Please choose a number: 0-1-2
+Choice: 2
+Playing CD: Dear Min by MIN
+Playing Track: Loser
+Track length: 3.4
+Playing Track: Đã có em là Nhà
+Track length: 3.2
+Playing Track: Chẳng phải tình đầu sao đau đến thế
+Track length: 4.2
+
+Options: 
+--------------------------------
+1. Add to cart
+2. Play
+0. Back
+--------------------------------
+Please choose a number: 0-1-2
+Choice: 1
+Added media: Dear Min successfully.
+Added! Cart size: 1
+
+**********************STORE ITEMS**********************
+1. DVD - ID: 1 - Title: Suzume - Category: Animation - Cost: 19.99 - Director: Shinkai Makoto -
+ Length: 122.0 mins                                                                            2. DVD - ID: 2 - Title: Your Name - Category: Animation - Cost: 18.99 - Director: Shinkai Makot
+o - Length: 106.0 mins                                                                         3. DVD - ID: 3 - Title: Spirited Away - Category: Animation - Cost: 19.99 - Director: Hayao Miy
+azaki - Length: 125.0 mins                                                                     4. CD: ID: 4 - Title: Dear Min - Category: Music - Cost: 40.0 - Director: Unknown - Length: 10.
+8 mins - Artist: MIN - 3 tracks                                                                5. CD: ID: 5 - Title: Your Name OST - Category: Music - Cost: 15.99 - Director: Unknown - Lengt
+h: 0.0 mins - Artist: Radwimps - None tracks                                                   6. Book - ID: 6 - Title: Crossing Time - Category: Manga - Cost: 45.0 - None Authors
+*******************************************************
+
+Options: 
+--------------------------------
+1. See a media's details
+2. Add a media to cart
+3. Play a media
+4. See current cart
+0. Back
+--------------------------------
+Please choose a number: 0-1-2-3-4
+Choice: 2
+Enter media title: Crossing Time
+Added media: Crossing Time successfully.
+Added! Cart size: 2
+
+**********************STORE ITEMS**********************
+1. DVD - ID: 1 - Title: Suzume - Category: Animation - Cost: 19.99 - Director: Shinkai Makoto -
+ Length: 122.0 mins                                                                            2. DVD - ID: 2 - Title: Your Name - Category: Animation - Cost: 18.99 - Director: Shinkai Makot
+o - Length: 106.0 mins                                                                         3. DVD - ID: 3 - Title: Spirited Away - Category: Animation - Cost: 19.99 - Director: Hayao Miy
+azaki - Length: 125.0 mins                                                                     4. CD: ID: 4 - Title: Dear Min - Category: Music - Cost: 40.0 - Director: Unknown - Length: 10.
+8 mins - Artist: MIN - 3 tracks                                                                5. CD: ID: 5 - Title: Your Name OST - Category: Music - Cost: 15.99 - Director: Unknown - Lengt
+h: 0.0 mins - Artist: Radwimps - None tracks                                                   6. Book - ID: 6 - Title: Crossing Time - Category: Manga - Cost: 45.0 - None Authors
+*******************************************************
+
+Options: 
+--------------------------------
+1. See a media's details
+2. Add a media to cart
+3. Play a media
+4. See current cart
+0. Back
+--------------------------------
+Please choose a number: 0-1-2-3-4
+Choice: 3
+Enter media title: Yuru Camp OST
+Media not found!
+
+**********************STORE ITEMS**********************
+1. DVD - ID: 1 - Title: Suzume - Category: Animation - Cost: 19.99 - Director: Shinkai Makoto -
+ Length: 122.0 mins                                                                            2. DVD - ID: 2 - Title: Your Name - Category: Animation - Cost: 18.99 - Director: Shinkai Makot
+o - Length: 106.0 mins                                                                         3. DVD - ID: 3 - Title: Spirited Away - Category: Animation - Cost: 19.99 - Director: Hayao Miy
+azaki - Length: 125.0 mins                                                                     4. CD: ID: 4 - Title: Dear Min - Category: Music - Cost: 40.0 - Director: Unknown - Length: 10.
+8 mins - Artist: MIN - 3 tracks                                                                5. CD: ID: 5 - Title: Your Name OST - Category: Music - Cost: 15.99 - Director: Unknown - Lengt
+h: 0.0 mins - Artist: Radwimps - None tracks                                                   6. Book - ID: 6 - Title: Crossing Time - Category: Manga - Cost: 45.0 - None Authors
+*******************************************************
+
+Options: 
+--------------------------------
+1. See a media's details
+2. Add a media to cart
+3. Play a media
+4. See current cart
+0. Back
+--------------------------------
+Please choose a number: 0-1-2-3-4
+Choice: 3
+Enter media title: Your Name OST
+No tracks available to play for CD: Your Name OST
+
+**********************STORE ITEMS**********************
+1. DVD - ID: 1 - Title: Suzume - Category: Animation - Cost: 19.99 - Director: Shinkai Makoto -
+ Length: 122.0 mins                                                                            2. DVD - ID: 2 - Title: Your Name - Category: Animation - Cost: 18.99 - Director: Shinkai Makot
+o - Length: 106.0 mins                                                                         3. DVD - ID: 3 - Title: Spirited Away - Category: Animation - Cost: 19.99 - Director: Hayao Miy
+azaki - Length: 125.0 mins                                                                     4. CD: ID: 4 - Title: Dear Min - Category: Music - Cost: 40.0 - Director: Unknown - Length: 10.
+8 mins - Artist: MIN - 3 tracks                                                                5. CD: ID: 5 - Title: Your Name OST - Category: Music - Cost: 15.99 - Director: Unknown - Lengt
+h: 0.0 mins - Artist: Radwimps - None tracks                                                   6. Book - ID: 6 - Title: Crossing Time - Category: Manga - Cost: 45.0 - None Authors
+*******************************************************
+
+Options: 
+--------------------------------
+1. See a media's details
+2. Add a media to cart
+3. Play a media
+4. See current cart
+0. Back
+--------------------------------
+Please choose a number: 0-1-2-3-4
+Choice: 4
+
+**********************CART**********************
+Ordered Items:
+1. CD: ID: 4 - Title: Dear Min - Category: Music - Cost: 40.0 - Director: Unknown - Length: 10.
+8 mins - Artist: MIN - 3 tracks                                                                2. Book - ID: 6 - Title: Crossing Time - Category: Manga - Cost: 45.0 - None Authors
+Total Cost: $85,00
+************************************************
+
+**********************STORE ITEMS**********************
+1. DVD - ID: 1 - Title: Suzume - Category: Animation - Cost: 19.99 - Director: Shinkai Makoto -
+ Length: 122.0 mins                                                                            2. DVD - ID: 2 - Title: Your Name - Category: Animation - Cost: 18.99 - Director: Shinkai Makot
+o - Length: 106.0 mins                                                                         3. DVD - ID: 3 - Title: Spirited Away - Category: Animation - Cost: 19.99 - Director: Hayao Miy
+azaki - Length: 125.0 mins                                                                     4. CD: ID: 4 - Title: Dear Min - Category: Music - Cost: 40.0 - Director: Unknown - Length: 10.
+8 mins - Artist: MIN - 3 tracks                                                                5. CD: ID: 5 - Title: Your Name OST - Category: Music - Cost: 15.99 - Director: Unknown - Lengt
+h: 0.0 mins - Artist: Radwimps - None tracks                                                   6. Book - ID: 6 - Title: Crossing Time - Category: Manga - Cost: 45.0 - None Authors
+*******************************************************
+
+Options: 
+--------------------------------
+1. See a media's details
+2. Add a media to cart
+3. Play a media
+4. See current cart
+0. Back
+--------------------------------
+Please choose a number: 0-1-2-3-4
+Choice: 0
+
+AIMS: 
+--------------------------------
+1. View store
+2. Update store
+3. See current cart
+0. Exit
+--------------------------------
+Please choose a number: 0-1-2-3
+Choice: 2
+
+Update Store:
+1. Add media 
+ 2. Remove media 
+ 0. Back
+Choice: 1
+Select: 1.DVD  2.CD  3.Book
+Choice: 3  
+Title: Yuru Camp
+Category: Slice of Life
+Cost: 30
+Added media: Yuru Camp to the store.
+
+AIMS: 
+--------------------------------
+1. View store
+2. Update store
+3. See current cart
+0. Exit
+--------------------------------
+Please choose a number: 0-1-2-3
+Choice: 2
+
+Update Store:
+1. Add media 
+ 2. Remove media 
+ 0. Back
+Choice: 2
+
+**********************STORE ITEMS**********************
+1. DVD - ID: 1 - Title: Suzume - Category: Animation - Cost: 19.99 - Director: Shinkai Makoto -
+ Length: 122.0 mins                                                                            2. DVD - ID: 2 - Title: Your Name - Category: Animation - Cost: 18.99 - Director: Shinkai Makot
+o - Length: 106.0 mins                                                                         3. DVD - ID: 3 - Title: Spirited Away - Category: Animation - Cost: 19.99 - Director: Hayao Miy
+azaki - Length: 125.0 mins                                                                     4. CD: ID: 4 - Title: Dear Min - Category: Music - Cost: 40.0 - Director: Unknown - Length: 10.
+8 mins - Artist: MIN - 3 tracks                                                                5. CD: ID: 5 - Title: Your Name OST - Category: Music - Cost: 15.99 - Director: Unknown - Lengt
+h: 0.0 mins - Artist: Radwimps - None tracks                                                   6. Book - ID: 6 - Title: Crossing Time - Category: Manga - Cost: 45.0 - None Authors
+7. Book - ID: 7 - Title: Yuru Camp - Category: Slice of Life - Cost: 30.0 - None Authors
+*******************************************************
+Enter title to remove: Spirited Away
+Remove media: Spirited Away successfully from the Store
+
+AIMS: 
+--------------------------------
+1. View store
+2. Update store
+3. See current cart
+0. Exit
+--------------------------------
+Please choose a number: 0-1-2-3
+Choice: 3
+
+**********************CART**********************
+Ordered Items:
+1. CD: ID: 4 - Title: Dear Min - Category: Music - Cost: 40.0 - Director: Unknown - Length: 10.
+8 mins - Artist: MIN - 3 tracks                                                                2. Book - ID: 6 - Title: Crossing Time - Category: Manga - Cost: 45.0 - None Authors
+Total Cost: $85,00
+************************************************
+
+Options: 
+--------------------------------
+1. Filter medias in cart
+2. Sort medias in cart
+3. Remove media from cart
+4. Play a media
+5. Place order
+0. Back
+--------------------------------
+Please choose a number: 0-1-2-3-4-5
+Choice: 1
+Filter by: 1.ID  2.Title
+Choice: 1
+Enter ID: 1
+Media not found with ID: 1
+
+**********************CART**********************
+Ordered Items:
+1. CD: ID: 4 - Title: Dear Min - Category: Music - Cost: 40.0 - Director: Unknown - Length: 10.
+8 mins - Artist: MIN - 3 tracks                                                                2. Book - ID: 6 - Title: Crossing Time - Category: Manga - Cost: 45.0 - None Authors
+Total Cost: $85,00
+************************************************
+
+Options: 
+--------------------------------
+1. Filter medias in cart
+2. Sort medias in cart
+3. Remove media from cart
+4. Play a media
+5. Place order
+0. Back
+--------------------------------
+Please choose a number: 0-1-2-3-4-5
+Choice: 1
+Filter by: 1.ID  2.Title
+Choice: Crossing Time
+Invalid!
+Choice: 2
+Enter title: Crossing Time
+Media found: Crossing Time
+Book - ID: 6 - Title: Crossing Time - Category: Manga - Cost: 45.0 - None Authors
+
+**********************CART**********************
+Ordered Items:
+1. CD: ID: 4 - Title: Dear Min - Category: Music - Cost: 40.0 - Director: Unknown - Length: 10.
+8 mins - Artist: MIN - 3 tracks                                                                2. Book - ID: 6 - Title: Crossing Time - Category: Manga - Cost: 45.0 - None Authors
+Total Cost: $85,00
+************************************************
+
+Options: 
+--------------------------------
+1. Filter medias in cart
+2. Sort medias in cart
+3. Remove media from cart
+4. Play a media
+5. Place order
+0. Back
+--------------------------------
+Please choose a number: 0-1-2-3-4-5
+Choice: 2
+Sort: 1.Title>Cost  2.Cost>Title
+Choice: 1
+Cart sorted by title then cost.
+
+**********************CART**********************
+Ordered Items:
+1. Book - ID: 6 - Title: Crossing Time - Category: Manga - Cost: 45.0 - None Authors
+2. CD: ID: 4 - Title: Dear Min - Category: Music - Cost: 40.0 - Director: Unknown - Length: 10.
+8 mins - Artist: MIN - 3 tracks                                                                Total Cost: $85,00
+************************************************
+
+**********************CART**********************
+Ordered Items:
+1. Book - ID: 6 - Title: Crossing Time - Category: Manga - Cost: 45.0 - None Authors
+2. CD: ID: 4 - Title: Dear Min - Category: Music - Cost: 40.0 - Director: Unknown - Length: 10.
+8 mins - Artist: MIN - 3 tracks                                                                Total Cost: $85,00
+************************************************
+
+Options: 
+--------------------------------
+1. Filter medias in cart
+2. Sort medias in cart
+3. Remove media from cart
+4. Play a media
+5. Place order
+0. Back
+--------------------------------
+Please choose a number: 0-1-2-3-4-5
+Choice: 3
+Enter title: Crossing Time
+Media found: Crossing Time
+Media removed successfully: Crossing Time
+
+**********************CART**********************
+Ordered Items:
+1. CD: ID: 4 - Title: Dear Min - Category: Music - Cost: 40.0 - Director: Unknown - Length: 10.
+8 mins - Artist: MIN - 3 tracks                                                                Total Cost: $40,00
+************************************************
+
+Options: 
+--------------------------------
+1. Filter medias in cart
+2. Sort medias in cart
+3. Remove media from cart
+4. Play a media
+5. Place order
+0. Back
+--------------------------------
+Please choose a number: 0-1-2-3-4-5
+Choice: 5
+Order placed! Total: $40,00
+Cart has been cleared.
+
+AIMS: 
+--------------------------------
+1. View store
+2. Update store
+3. See current cart
+0. Exit
+--------------------------------
+Please choose a number: 0-1-2-3
+Choice: 0
+Thank for using AIMS.

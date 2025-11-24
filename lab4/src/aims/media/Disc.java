@@ -5,8 +5,8 @@ public class Disc extends Media{
     private String director;
 
 
-    public Disc(int id, String title, String category, float cost, float length, String director){
-        super(id, title, category, cost);
+    public Disc(String title, String category, float cost, float length, String director){
+        super(title, category, cost);
         this.length = length;
         this.director = director;
     }
@@ -22,7 +22,7 @@ public class Disc extends Media{
     public String toString(){
         return super.toString() + 
                 " - " + "Director: " + this.director +
-                " - " + "Length: " + this.length + "mins";
+                " - " + "Length: " + this.length + " mins";
 
     }
 }
