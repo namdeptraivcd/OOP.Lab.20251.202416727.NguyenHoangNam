@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" 
+            xmlns="http://javafx.com/javafx/21"
+            fx:controller="aims.screen.StoreScreenController"
+            prefHeight="768.0" prefWidth="1024.0">
+    
+    <top>
+        <MenuBar fx:id="menuBar">
+            <Menu text="Options">
+                <MenuItem text="View store" onAction="#handleViewStore"/>
+                <MenuItem text="View cart" onAction="#handleViewCart"/>
+            </Menu>
+            <Menu text="Update Store">
+                <MenuItem text="Add Book" onAction="#handleAddBook"/>
+                <MenuItem text="Add CD" onAction="#handleAddCD"/>
+                <MenuItem text="Add DVD" onAction="#handleAddDVD"/>
+                <SeparatorMenuItem/>
+                <MenuItem text="Remove Media" onAction="#handleUpdateStore"/>
+            </Menu>
+        </MenuBar>
+    </top>
+    
+    <center>
+        <ScrollPane fitToWidth="true" fitToHeight="true">
+            <VBox alignment="TOP_CENTER" spacing="20" fx:id="centerContainer">
+                <padding>
+                    <Insets top="20" right="20" bottom="20" left="20"/>
+                </padding>
+                
+                <Label text="STORE" styleClass="store-header">
+                    <font>
+                        <Font name="System Bold" size="24.0"/>
+                    </font>
+                </Label>
+
+                <GridPane fx:id="mediaGrid" 
+                          hgap="15" vgap="15" 
+                          alignment="CENTER">
+                </GridPane>
+            </VBox>
+        </ScrollPane>
+    </center>
+    <bottom>
+        <HBox alignment="CENTER_LEFT" spacing="10" 
+              style="-fx-background-color: #f0f0f0; -fx-padding: 5;">
+            <Label fx:id="statusLabel" text="Ready"/>
+        </HBox>
+    </bottom>
+</BorderPane>

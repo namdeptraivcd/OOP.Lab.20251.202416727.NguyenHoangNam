@@ -1,0 +1,90 @@
+/* AIMS Store - Custom Styles */
+
+.root {
+    -fx-font-family: "System";
+    -fx-font-size: 14px;
+}
+
+/* Store Header */
+.store-header {
+    -fx-text-fill: #1976D2;
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+}
+
+/* Menu Bar */
+.menu-bar {
+    -fx-background-color: #2196F3;
+}
+
+.menu-bar .label {
+    -fx-text-fill: white;
+}
+
+.menu-bar .menu-button:hover {
+    -fx-background-color: #1976D2;
+}
+
+/* Media Card */
+.media-card {
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 15px;
+    -fx-background-color: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 2);
+}
+
+.media-card:hover {
+    -fx-background-color: #f5f5f5;
+    -fx-cursor: hand;
+}
+
+/* Buttons */
+.button {
+    -fx-background-radius: 3px;
+    -fx-cursor: hand;
+    -fx-padding: 8px 16px;
+}
+
+.button:hover {
+    -fx-opacity: 0.9;
+}
+
+.add-button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+}
+
+.play-button {
+    -fx-background-color: #2196F3;
+    -fx-text-fill: white;
+}
+
+.remove-button {
+    -fx-background-color: #f44336;
+    -fx-text-fill: white;
+}
+
+.order-button {
+    -fx-background-color: #FF9800;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+/* Status Bar */
+.status-bar {
+    -fx-background-color: #f0f0f0;
+    -fx-padding: 5px 10px;
+}
+
+/* ScrollPane */
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: #fafafa;
+}

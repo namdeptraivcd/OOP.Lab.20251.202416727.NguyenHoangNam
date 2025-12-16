@@ -1,0 +1,22 @@
+package aims.media;
+public class Disc extends Media{
+    private float length;
+    private String director;
+    public Disc(String title, String category, float cost, float length, String director){
+        super(title, category, cost);
+        this.length = length;
+        this.director = director;
+    }
+    public float getLength() {
+        return length;
+    }
+    public String getDirector() {
+        return director;
+    }
+    @Override
+    public String toString(){
+        return super.toString() + 
+                " - " + "Director: " + this.director +
+                " - " + "Length: " + this.length + " mins";
+    }
+}
